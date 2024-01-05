@@ -13,14 +13,11 @@ const Index = (props: IBlogGalleryProps) => (
   <Main
     meta={
       <Meta
-        title="The Ultimate Platform for Goal Setting and Tracking"
+        title="Made with Next.js, TypeScript, ESLint, Prettier, PostCSS, Tailwind CSS"
         description={AppConfig.description}
       />
     }
   >
-    <Content>
-      <p>Custom home content here</p>
-    </Content>
     <BlogGallery posts={props.posts} pagination={props.pagination} />
   </Main>
 );
