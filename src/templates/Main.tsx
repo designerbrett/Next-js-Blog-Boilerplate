@@ -34,29 +34,18 @@ const Main = (props: IMainProps) => (
                 <a>About</a>
               </Link>
             </li>
-            <li className="mr-6">
-              <a href="https://github.com/ixartz/Next-js-Blog-Boilerplate">
-                GitHub
-              </a>
-            </li>
           </Navbar>
         </div>
       </div>
 
-      <div className="text-xl py-5">{props.children}</div>
+      <div className="text-xl py-5">Goaloto is a website and app that provide information, tools, and templates for goal setting and tracking. Whether you want to improve your health, career, finances, or personal life, Goaloto can help you create and follow a plan that works for you.</div>
+
+      <div className="text-xl py-5">With Goaloto, you can: - Learn the best practices and tips for effective goal setting and achievement - Track your progress and milestones with interactive charts and graphs - Access a marketplace of free and paid goal templates created by experts and other users - Join a community of like-minded people who support and inspire each other</div>
+
+      <div className="text-xl py-5"><h2>Resources</h2>{props.children}</div>
 
       <div className="border-t border-gray-300 text-center py-8 text-sm">
-        © Copyright {new Date().getFullYear()} {AppConfig.title}. Powered with{' '}
-        <span role="img" aria-label="Love">
-          ♥
-        </span>{' '}
-        by <a href="https://creativedesignsguru.com">CreativeDesignsGuru</a>
-        {/*
-         * PLEASE READ THIS SECTION
-         * We'll really appreciate if you could have a link to our website
-         * The link doesn't need to appear on every pages, one link on one page is enough.
-         * Thank you for your support it'll mean a lot for us.
-         */}
+        © Copyright {new Date().getFullYear()} {AppConfig.title}.
       </div>
     </div>
   </div>
