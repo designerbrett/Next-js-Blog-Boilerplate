@@ -18,7 +18,9 @@ const Main = (props: IMainProps) => (
       <div className="border-b border-gray-300">
         <div className="pt-16 pb-8">
           <div className="font-semibold text-3xl text-gray-900">
+          <Link href="/">
             {AppConfig.title}
+          </Link>
           </div>
           <div className="text-xl">{AppConfig.description}</div>
         </div>

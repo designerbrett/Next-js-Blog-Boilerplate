@@ -8,10 +8,7 @@ const About = () => (
   <Main meta={<Meta title="Lorem ipsum" description="Lorem ipsum" />}>
     <Content>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga
-        recusandae quidem. Quaerat molestiae blanditiis doloremque possimus
-        labore voluptatibus distinctio recusandae autem esse explicabo molestias
-        officia placeat, accusamus aut saepe.
+        Goaloto is more than just a website and app. Its a vision, a mission, and a passion. We believe that everyone deserves to live a fulfilling and meaningful life, and that goal setting is the key to unlocking ones true potential.
       </p>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga
