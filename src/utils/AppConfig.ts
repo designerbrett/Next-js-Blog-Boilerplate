@@ -1,9 +1,9 @@
 export const AppConfig = {
-  site_name: 'Starter',
-  title: 'Next.js Boilerplate',
+  site_name: 'Goaloto',
+  title: 'Goaloto',
   description:
-    'Starter code for your Next.js blog Boilerplate with Tailwind CSS',
-  url: 'https://example.com',
+    'The Ultimate Platform for Goal Setting and Tracking',
+  url: 'https://goaloto.com',
   locale: 'en',
   author: 'Anonymous',
   pagination_size: 5,
