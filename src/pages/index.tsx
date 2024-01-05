@@ -8,7 +8,6 @@ import { IPaginationProps } from '../pagination/Pagination';
 import { Main } from '../templates/Main';
 import { AppConfig } from '../utils/AppConfig';
 import { getAllPosts } from '../utils/Content';
-import { Content } from '../content/Content';
 
 const Index = (props: IBlogGalleryProps) => (
   <Main
@@ -19,7 +18,9 @@ const Index = (props: IBlogGalleryProps) => (
       />
     }
   >
-    
+    <Content>
+      <p>Custom home content here</p>
+    </Content>
     <BlogGallery posts={props.posts} pagination={props.pagination} />
   </Main>
 );
