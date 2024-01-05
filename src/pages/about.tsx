@@ -8,17 +8,11 @@ const About = () => (
   <Main meta={<Meta title="Lorem ipsum" description="Lorem ipsum" />}>
     <Content>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga
-        recusandae quidem. Quaerat molestiae blanditiis doloremque possimus
-        labore voluptatibus distinctio recusandae autem esse explicabo molestias
-        officia placeat, accusamus aut saepe.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga
-        recusandae quidem. Quaerat molestiae blanditiis doloremque possimus
-        labore voluptatibus distinctio recusandae autem esse explicabo molestias
-        officia placeat, accusamus aut saepe.
-      </p>
+      Goaloto is more than just a website and app. It’s a vision, a mission, and a passion. We believe that everyone deserves to live a fulfilling and meaningful life, and that goal setting is the key to unlocking one’s true potential.</p>
+
+      <p>We created Goaloto to provide a platform where people can learn, create, and share their goals with ease and confidence. We combine the latest research, technology, and creativity to offer information, tools, and templates for goal setting and tracking. We also foster a community of like-minded people who support and inspire each other.</p>
+
+      <p>Our team consists of experts, coaches, and enthusiasts who have years of experience and knowledge in the field of goal setting and achievement. We are always looking for new ways to improve our product and service, and to deliver value to our users. We welcome your feedback, suggestions, and questions. Contact us today and let us know how we can help you reach your goals.</p>
     </Content>
   </Main>
 );
